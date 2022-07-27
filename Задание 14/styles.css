@@ -1,0 +1,18 @@
+.d1{
+    border: 1px solid red;
+	width: 30%;
+	height: 50px;
+    color: #000;
+	transition: width 3s steps(5, start);
+}
+.d2{
+    border: 1px solid red;
+	width: 30%;
+	height: 50px;
+    color: #000;
+	margin-top: 15px;
+	transition: width 3s steps(5, end);
+}
+.d0:hover div{
+    width: 100%;
+}

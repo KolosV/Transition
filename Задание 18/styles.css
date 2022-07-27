@@ -1,0 +1,14 @@
+.d0{
+	background: white;
+	border: 1px solid red;
+	width: 150px;
+	height: 50px;
+	margin: 200px;
+	transition: all 1s linear;
+	box-shadow: -100px 100px black, 100px -100px black;
+}
+ 
+.d0:hover { 
+	box-shadow: 100px 100px black, 100px 100px black; 
+}
+

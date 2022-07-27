@@ -1,0 +1,28 @@
+#d1{ 
+background: white;
+border: 1px solid red;
+width: 30%;
+height: 100px;
+transition-property: background;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
+#d1:hover {
+ background: red;
+}
+#d2{
+    background: white;
+    border: 1px solid red;
+    color: red;
+    width: 30%;
+    height: 100px;
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+ }
+ #d2:hover { 
+     color: white; 
+     background: red;
+ }

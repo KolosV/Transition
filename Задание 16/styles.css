@@ -1,0 +1,18 @@
+.d0{
+	margin-left: 250px;
+	width: 50%;
+	height: 30px;
+	border: 1px solid red;
+}
+.d1{
+	background: red;
+	width: 0%;
+	height: 30px;
+	transition: all 2s linear;
+
+ }
+.d0:hover div{ 
+	width: 100%; 
+}
+
+

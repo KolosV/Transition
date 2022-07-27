@@ -1,0 +1,21 @@
+div{ 
+    background: white;
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    transition-property: width margin;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+ }
+
+
+ div:hover {
+    margin-left:10%;
+    background-color: white;
+    width: 70%;
+
+ }
+
+ 

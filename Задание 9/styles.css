@@ -1,0 +1,25 @@
+.d1 div{
+	background: white;
+	border: 1px solid red;
+   
+	width: 30%;
+	height: 30px;
+   
+	margin-bottom: 40px;
+   
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+.d1 div:last-child{
+	margin-bottom: 0;
+}
+
+.d1{
+	padding: 40px 5%;
+	border: 1px solid green;
+}
+.d1:hover div{ 
+	width: 100%;
+}

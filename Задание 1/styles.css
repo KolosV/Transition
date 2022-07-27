@@ -1,0 +1,17 @@
+#d1{ 
+border: 1px solid red;
+
+width: 30%;
+height: 100px;
+color: #000;
+background: white;
+transition-property: background;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+
+}
+#d1:hover {
+ background: red;
+ color: #fff;
+}

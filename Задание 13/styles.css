@@ -1,0 +1,23 @@
+.d1{
+    background: white;
+    border: 1px solid red;
+    padding: 10px;
+ }
+ 
+ .d2{
+     background: #c54949;
+     width: 300px;
+     height: 30px;
+     line-height: 30px;
+     margin: 15px 0px 0px -500px;
+     padding: 10px;
+     text-align: center;
+     color: white;
+     transition: all 1s ease-out;
+ }
+ 
+ .d1:hover  + .d2{ 	
+     margin-left: 30%;
+ }
+ 
+ 
